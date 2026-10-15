@@ -33,7 +33,6 @@ Create the environment for a given lab:
 - Plotted position, velocity, and acceleration as three stacked panels sharing the time axis in `motion.png`, with a dashed line at -9.81 on the acceleration panel.
 **Result:**
 - Mean acceleration: -8.57968750000008 m/s² (expected = -9.81), with a standard deviation of 28.71612572170628 m/s² (min -> -73.32499999999908, max -> 54.47499999999985).
-- Largest difference between the recovered position and the original: ___ m.
 **Noise observation:**
 - Taking the derivative amplifies the noise. So even though the original data seemed to be smooth, obtained acceleration was noisy.
 **What integrating back showed:**
